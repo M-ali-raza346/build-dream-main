@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo-bg4 {
+    content: "";
+    position: absolute;
+    width: 60%; /* Adjust width as needed */
+    height: 300px; /* Full height of the navbar */
+    background-color: #EBAE15    ; /* Yellow background color */
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    z-index: 0;
+    transition: width 0.3s ease; /* Slide effect */
+  }
+ 
+
+  .logo-bg5 {
+    position: absolute;
+    width: 58%; /* Adjust width as needed */
+    height: 270px;
+   
+    
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    z-index: 30;
+    margin-top: 100px;
+    background-color: white;
+    margin-left: 2px;
+    transition: width 0.3s ease;
+    box-sizing: border-box; /* Ensure border is included in dimensions */
+}
+
+
+.logo-bg6 {
+    content: "";
+    position: absolute;
+    width: 57.9%; /* Adjust width as needed */
+    height: 264px; /* Full height of the navbar */
+    background-color: #EBAE15    ; /* Yellow background color */
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    z-index: 40;
+    margin-top: 100px;
+    transition: width 0.3s ease; /* Slide effect */
+  }
